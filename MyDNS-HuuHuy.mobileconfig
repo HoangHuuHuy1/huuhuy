@@ -1,0 +1,56 @@
+
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>PayloadContent</key>
+    <array>
+        <dict>
+            <key>DNSSettings</key>
+            <dict>
+                <key>DNSProtocol</key>
+                <string>HTTPS</string>
+                <key>ServerURL</key>
+                <string>https://doh.2707226.xyz/dns-query/common</string>
+                <key>SupplementalMatchDomains</key>
+                <array>
+                    <string>api.revenuecat.com</string>
+                    <string>firebaseremoteconfig.googleapis.com</string>
+                    <string>api.locketcamera.com</string>
+                    <string>spclient.wg.spotify.com</string>
+                    <string>spclient.spotify.com</string>
+                    <string>dealer.spotify.com</string>
+                    <string>apresolve.spotify.com</string>
+                    <string>spotify.com</string>
+                </array>
+            </dict>
+            <key>PayloadDescription</key>
+            <string>MyDNS-HuuHuy DNS over HTTPS</string>
+            <key>PayloadDisplayName</key>
+            <string>MyDNS-HuuHuy DNS</string>
+            <key>PayloadIdentifier</key>
+            <string>vn.huuhuy.mydns.dns</string>
+            <key>PayloadType</key>
+            <string>com.apple.dnsSettings.managed</string>
+            <key>PayloadUUID</key>
+            <string>F179BB55-5D5B-4282-A69C-FEF5D332255E</string>
+            <key>PayloadVersion</key>
+            <integer>1</integer>
+        </dict>
+    </array>
+    <key>PayloadDescription</key>
+    <string>MyDNS-HuuHuy configuration</string>
+    <key>PayloadDisplayName</key>
+    <string>MyDNS-HuuHuy</string>
+    <key>PayloadIdentifier</key>
+    <string>vn.huuhuy.mydns.profile</string>
+    <key>PayloadRemovalDisallowed</key>
+    <false/>
+    <key>PayloadType</key>
+    <string>Configuration</string>
+    <key>PayloadUUID</key>
+    <string>7E0BFF70-7D5D-4E1C-A74C-A6DB0B12F3AF</string>
+    <key>PayloadVersion</key>
+    <integer>1</integer>
+</dict>
+</plist>

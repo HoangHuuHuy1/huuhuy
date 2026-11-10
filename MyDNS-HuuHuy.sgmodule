@@ -1,0 +1,13 @@
+
+#!name=MyDNS-HuuHuy
+#!desc=Custom routing rules for Locket and Spotify
+
+[Rule]
+DOMAIN,api.revenuecat.com,DIRECT
+DOMAIN,firebaseremoteconfig.googleapis.com,DIRECT
+DOMAIN,api.locketcamera.com,DIRECT
+DOMAIN,spclient.wg.spotify.com,DIRECT
+DOMAIN,spclient.spotify.com,DIRECT
+DOMAIN,dealer.spotify.com,DIRECT
+DOMAIN,apresolve.spotify.com,DIRECT
+DOMAIN-SUFFIX,spotify.com,DIRECT
