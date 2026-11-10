@@ -1,49 +1,49 @@
 
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN"
+ "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
     <key>PayloadContent</key>
     <array>
         <dict>
-            <key>DNSSettings</key>
-            <dict>
-                <key>DNSProtocol</key>
-                <string>HTTPS</string>
-                <key>ServerURL</key>
-                <string>https://doh.2707226.xyz/dns-query/common</string>
-                <key>SupplementalMatchDomains</key>
-                <array>
-                    <string>api.revenuecat.com</string>
-                    <string>firebaseremoteconfig.googleapis.com</string>
-                    <string>api.locketcamera.com</string>
-                    <string>spclient.wg.spotify.com</string>
-                    <string>spclient.spotify.com</string>
-                    <string>dealer.spotify.com</string>
-                    <string>apresolve.spotify.com</string>
-                    <string>spotify.com</string>
-                </array>
-            </dict>
+            <key>Declarations</key>
+            <array>
+                <data>
+eyJUeXBlIjoiY29tLmFwcGxlLmNvbmZpZ3VyYXRpb24ubmV0d29yay5kbnMtc2V0
+dGluZ3MiLCJJZGVudGlmaWVyIjoiQTZEMkI5QzEtNUU3My00RjE4LTlDMjAtOEI0
+MUU3RDJBOTAxIiwiU2VydmVyVG9rZW4iOiJEODFGNkE0Mi0zQzk1LTRCMDctQUU2
+MS03MjlEMEY0QzhCMzUiLCJQYXlsb2FkIjp7IlZpc2libGVOYW1lIjoiTXlETlMt
+SHV1SHV5IiwiRE5TU2V0dGluZ3MiOnsiRE5TUHJvdG9jb2wiOiJIVFRQUyIsIlNl
+cnZlclVSTCI6Imh0dHBzOi8vZG9oLjI3MDcyMjYueHl6L2Rucy1xdWVyeS9jb21t
+b24iLCJBbGxvd0ZhaWxvdmVyIjp0cnVlLCJTdXBwbGVtZW50YWxNYXRjaERvbWFp
+bnMiOlsiYXBpLnJldmVudWVjYXQuY29tIiwiZmlyZWJhc2VyZW1vdGVjb25maWcu
+Z29vZ2xlYXBpcy5jb20iLCJhcGkubG9ja2V0Y2FtZXJhLmNvbSIsInNwY2xpZW50
+LndnLnNwb3RpZnkuY29tIiwic3BjbGllbnQuc3BvdGlmeS5jb20iLCJkZWFsZXIu
+c3BvdGlmeS5jb20iLCJhcHJlc29sdmUuc3BvdGlmeS5jb20iLCJzcG90aWZ5LmNv
+bSJdfX19
+                </data>
+            </array>
             <key>PayloadDescription</key>
-            <string>MyDNS-HuuHuy DNS over HTTPS</string>
+            <string>MyDNS-HuuHuy iOS 27 DNS declaration</string>
             <key>PayloadDisplayName</key>
-            <string>MyDNS-HuuHuy DNS</string>
+            <string>MyDNS-HuuHuy DDM</string>
             <key>PayloadIdentifier</key>
-            <string>vn.huuhuy.mydns.dns</string>
+            <string>vn.huuhuy.mydns.declarations</string>
             <key>PayloadType</key>
-            <string>com.apple.dnsSettings.managed</string>
+            <string>com.apple.declarations</string>
             <key>PayloadUUID</key>
-            <string>F179BB55-5D5B-4282-A69C-FEF5D332255E</string>
+            <string>3C7B9D21-5A64-4E80-9F12-6D2A8B7C4E31</string>
             <key>PayloadVersion</key>
             <integer>1</integer>
         </dict>
     </array>
     <key>PayloadDescription</key>
-    <string>MyDNS-HuuHuy configuration</string>
+    <string>MyDNS-HuuHuy for iOS 27</string>
     <key>PayloadDisplayName</key>
     <string>MyDNS-HuuHuy</string>
     <key>PayloadIdentifier</key>
-    <string>vn.huuhuy.mydns.profile</string>
+    <string>vn.huuhuy.mydns.ios27</string>
     <key>PayloadRemovalDisallowed</key>
     <false/>
     <key>PayloadType</key>
